@@ -1,0 +1,8 @@
+//
+   Created by dandreini16 on 12/22/16.
+
+for post, slug in public.posts._data
+    article
+        h2: a(href='posts/' + slug)= post.title
+        time= post.date
+        p= post.description
